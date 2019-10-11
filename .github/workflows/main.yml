@@ -1,0 +1,11 @@
+name: CI
+
+on: [issues]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: alisw/actions-release-aliroot@master
